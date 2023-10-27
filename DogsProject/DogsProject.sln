@@ -5,6 +5,8 @@ VisualStudioVersion = 17.7.34202.233
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DogsProject", "DogsProject\DogsProject.csproj", "{40DF88CA-6214-4104-8153-56227551FB9A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DogsApp.Infrastructure", "DogsApp.Infrastructure\DogsApp.Infrastructure.csproj", "{022015E1-8C40-467B-8A82-0E11F1181A6C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{40DF88CA-6214-4104-8153-56227551FB9A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{40DF88CA-6214-4104-8153-56227551FB9A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{40DF88CA-6214-4104-8153-56227551FB9A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{022015E1-8C40-467B-8A82-0E11F1181A6C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{022015E1-8C40-467B-8A82-0E11F1181A6C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{022015E1-8C40-467B-8A82-0E11F1181A6C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{022015E1-8C40-467B-8A82-0E11F1181A6C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
