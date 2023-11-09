@@ -2,6 +2,7 @@
 
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore.Storage;
 
 namespace DogsApp.Infrastructure.Data
 {
@@ -10,7 +11,8 @@ namespace DogsApp.Infrastructure.Data
         public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options)
             : base(options)
         {
+        Database.EnsureCreated();
         }
         public DbSet<Dog> Dogs { get; set; }
     }
-}
+}   
